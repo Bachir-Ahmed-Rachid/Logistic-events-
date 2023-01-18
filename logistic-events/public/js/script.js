@@ -17,7 +17,7 @@ $(document).ready(function() {
 		pagination: false
 	});
 	var typed = new Typed(".typed", {
-		strings: ["Supply Chain Engineer.", "Full Stack Web Developer.", "Combinatorial Optimization Specialist."],
+		strings: [" .", "vous ne pouvez pas le realiser?.", "Combinatorial Optimization Specialist."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
