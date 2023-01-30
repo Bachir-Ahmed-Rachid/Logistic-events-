@@ -17,10 +17,15 @@ $(document).ready(function() {
 		pagination: false
 	});
 	var typed = new Typed(".typed", {
-		strings: [" .", "vous ne pouvez pas le realiser?.", "Combinatorial Optimization Specialist."],
-		typeSpeed: 70,
+		strings: [
+		"Avez vous un projet ?",
+		 "Vous ne pouvez pas le realiser?,ni le gérer ?", 
+		 "Vous n'avez pas trouvé de lieu ?",
+		 "est la pour vous accompagner et réaliser la gestion votre projet"
+		],
+		typeSpeed: 100,
 		loop: true,
-		startDelay: 1000,
+		startDelay: 500,
 		showCursor: false
 	});
 

@@ -9,7 +9,21 @@ const Services = () => {
   return (
 <section id="service" className="service section">
 
-<h1 className="heading">our services</h1>
+<div style={{
+  backgroundColor: '#e74c3c',
+	color: '#fff',
+  minHeight:120,
+
+  }}
+  className='d-flex align-items-center justify-content-center pt-4'>
+
+
+<h1  className="heading">Nos services
+  </h1>
+
+
+</div>
+
 
 <div className="row">
 
@@ -17,25 +31,25 @@ const Services = () => {
     <img  src={Service2} alt=""/>
   </div>
   <div className="col-md-6 content">
-    <h3>website development</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatem, tempore hic deserunt vel temporibus aperiam recusandae ratione, obcaecati at qui accusamus enim, laudantium eveniet. Inventore voluptas nemo placeat. Voluptas.</p>
+    <h2>Conception de projet</h2>
+    <p>etude de faisabilité , cahier de charge,budget prévisionnelle.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
-  <hr className='mt-5'/>
+ 
 </div>
 
 
 <div className="row">
 
   <div className="col-md-6 content">
-    <h3>mobile friendly</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatem, tempore hic deserunt vel temporibus aperiam recusandae ratione, obcaecati at qui accusamus enim, laudantium eveniet. Inventore voluptas nemo placeat. Voluptas.</p>
+    <h2>Coordination avec prestataires</h2>
+    <p>.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
   <div className="col-md-6 image">
     <img src={Service2} alt=""/>
   </div>
-  <hr className='mt-5'/>
+ 
 </div>
 
 <div className="row">
@@ -45,24 +59,24 @@ const Services = () => {
     <img src={Service5} alt=""/>
   </div>
   <div className="col-md-6 content">
-    <h3>responsive design</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatem, tempore hic deserunt vel temporibus aperiam recusandae ratione, obcaecati at qui accusamus enim, laudantium eveniet. Inventore voluptas nemo placeat. Voluptas.</p>
+    <h2>Approvisionnement</h2>
+    <p>Produits alimentaires meuble,décoration,autres.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
-  <hr className='mt-5'/>
+ 
 </div>
 
 <div className="row">
 
   <div className="col-md-6 content">
-    <h3>web hosting</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatem, tempore hic deserunt vel temporibus aperiam recusandae ratione, obcaecati at qui accusamus enim, laudantium eveniet. Inventore voluptas nemo placeat. Voluptas.</p>
+    <h2>Transporter</h2>
+    <p>Invités et produits au lieu de l'événement.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
   <div className="col-md-6 image">
     <img src={Service3} alt=""/>
   </div>
-  <hr className='mt-5'/>
+ 
 </div>
 
 <div className="row">
@@ -72,24 +86,24 @@ const Services = () => {
     <img src={Service6} alt=""/>
   </div>
   <div className="col-md-6 content">
-    <h3>seo friendly</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatem, tempore hic deserunt vel temporibus aperiam recusandae ratione, obcaecati at qui accusamus enim, laudantium eveniet. Inventore voluptas nemo placeat. Voluptas.</p>
+    <h2>Implantation et la mise en place</h2>
+    <p>.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
-  <hr className='mt-5'/>
+ 
 </div>
 
 <div className="row">
 
   <div className="col-md-6 content">
-    <h3>graphic design</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatem, tempore hic deserunt vel temporibus aperiam recusandae ratione, obcaecati at qui accusamus enim, laudantium eveniet. Inventore voluptas nemo placeat. Voluptas.</p>
+    <h2>Programme du déroulement de l'événement</h2>
+    <p>.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
   <div className="col-md-6 image">
     <img src={Service4} alt=""/>
   </div>
-  <hr className='mt-5'/>
+ 
 </div>
 
 </section>

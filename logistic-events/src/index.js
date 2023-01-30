@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter} from "react-router-dom"
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/superslides.css';
 import './css/style.css';
 import './css/owl.carousel.min.css';
