@@ -1,10 +1,10 @@
 import React from 'react'
 const Skills = () => {
     const skills=[
-        {dataPercent:80,percent:80,skill:'SKILL1',description:'USED IN' },
-        {dataPercent:70,percent:70,skill:'SKILL2',description:'USED IN' },
-        {dataPercent:80,percent:80,skill:'SKILL3',description:'USED IN' },
-        {dataPercent:70,percent:70,skill:'SKILL4',description:'USED IN' },
+        {dataPercent:80,percent:80,skill:'Disponibilité,',description:'USED IN' },
+        {dataPercent:70,percent:70,skill:'Réactivité et flexibilité',description:'USED IN' },
+        {dataPercent:80,percent:80,skill:'Transparence',description:'transparence de tout document lié à votre projet' },
+        {dataPercent:70,percent:70,skill:'Expertise',description:'Expert en chaine logistique et gestion de projet' },
         {dataPercent:65,percent:65,skill:'SKILL5',description:'USED IN' },
         {dataPercent:40,percent:40,skill:'SKILL6',description:'USED IN' },
         {dataPercent:50,percent:50,skill:'SKILL7',description:'USED IN'},
@@ -17,8 +17,8 @@ const Skills = () => {
                 <div className="row">
 
                     <div className="col-md-12 text-center">
-                        <h2>TECHNICAL SKILLS</h2>
-                        <p>OUR proficiency in each skill (drag to scroll)</p>
+                        <h2>Nos atout</h2>
+                        <p>.</p>
                     </div>
 
 

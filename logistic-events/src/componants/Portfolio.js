@@ -10,15 +10,15 @@ import Event8  from '../img/portfolio/event8.jpg'
 import Event9  from '../img/portfolio/event9.jpg'
 const Portfolio = () => {
     const portfolios=[        
-        {filtre:'.events',src:Event1,title:"Event1",link:""},
-        {filtre:'project',src:Event2,title:"Event2",link:""},
-        {filtre:'events',src:Event3,title:"Event3",link:""},
-        {filtre:'project',src:Event4,title:"Event4",link:""},
-        {filtre:'events',src:Event5,title:"Event5",link:""},
-        {filtre:'project',src:Event6,title:"Event6",link:""},
-        {filtre:'project',src:Event7,title:"Event7",link:""},
-        {filtre:'project',src:Event8,title:"Event8",link:""},
-        {filtre:'events',src:Event9,title:"Event9",link:""},
+        {filtre:'.festival',src:Event1,title:"Event1",link:""},
+        {filtre:'sport',src:Event2,title:"Event2",link:""},
+        {filtre:'showroom',src:Event3,title:"Event3",link:""},
+        {filtre:'seminaire',src:Event4,title:"Event4",link:""},
+        {filtre:'sport',src:Event5,title:"Event5",link:""},
+        {filtre:'showroom',src:Event6,title:"Event6",link:""},
+        {filtre:'sport',src:Event7,title:"Event7",link:""},
+        {filtre:'seminaire',src:Event8,title:"Event8",link:""},
+        {filtre:'sport',src:Event9,title:"Event9",link:""},
     ]
   return (
     <div id="portfolio" className="section">
@@ -36,13 +36,19 @@ const Portfolio = () => {
                 <ul id="filters">
 
                     <li>
-                        <a href="#" data-filter="*" className="current">ALL</a>
+                        <a href="#" data-filter="*" className="current">Tous</a>
                     </li>
                     <li>
-                        <a href="#" data-filter=".events">Events</a>
+                        <a href="#" data-filter=".festival">Evénement festival</a>
                     </li>
                     <li>
-                        <a href="#" data-filter=".project">Projects</a>
+                        <a href="#" data-filter=".sport">Evénement sportif</a>
+                    </li>
+                    <li>
+                        <a href="#" data-filter=".seminaire">Séminaire</a>
+                    </li>
+                    <li>
+                        <a href="#" data-filter=".showroom">Showroom lancement d'un produit</a>
                     </li>
                 </ul>
 

@@ -18,14 +18,26 @@ $(document).ready(function() {
 	});
 	var typed = new Typed(".typed", {
 		strings: [
-		"Avez vous un projet ?",
-		 "Vous ne pouvez pas le realiser?,ni le gérer ?", 
-		 "Vous n'avez pas trouvé de lieu ?",
-		 "est la pour vous accompagner et réaliser la gestion votre projet"
+			"Approvisionnement des produits",
+			"Accomplir les formalités administratives",
+			"Transporter des produits et invités au lieu de l'événement",
+			"Installation,mise en scène",
+			"Programme du déroulement de l'événement",
+			"Gestion du système d'information et communication",
+			"Etude de faisabilité,budgétaire"
+
+
+
+		// "Avez vous un projet ?",
+		//  "Vous ne pouvez pas le realiser?,ni le gérer ?", 
+		//  "Vous n'avez pas trouvé de lieu ?",
+		//  "est la pour vous accompagner et réaliser la gestion votre projet"
+
+
 		],
-		typeSpeed: 100,
+		typeSpeed: 10000,
 		loop: true,
-		startDelay: 500,
+		startDelay: 10,
 		showCursor: false
 	});
 

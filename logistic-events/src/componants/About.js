@@ -9,22 +9,27 @@ const About = () => {
         <div className="row">
 
             <div className="col-md-6">
-                <img className="aboutImage" src={about}/>
+                <img style={{height:'100%'}} className="aboutImage" src={about}/>
             </div>
 
             <div className="col-md-6">
 
 
                 <h3>Qui sommes- nous?</h3>
+                <p> Avez vous un projet ?</p>
+		        <p> Vous ne pouvez pas le realiser?,ni le gérer ?</p>
+                <p> Vous n'avez pas trouvé de lieu ?</p>
+                <p>  est la pour vous accompagner et réaliser la gestion votre projet"</p>
                     <p>Nous sommes une entreprise a responsabilité limitee , spécialisée dans la gestion de
                     la logistique d'un événement ou d'un projet.
                     </p>
+                    
                     <p>
                         (nom de l'entreprise ) fournit tous les services nécessaires à
                         l'organisation de votre projet : 
                     </p>
                     <p>
-                        Conception programme de l'évènement, gestion d’approvisionnement et transport.
+                        Conception programme de l'évènement, gestion d'approvisionnement et transport.
                     </p>
                     <p>
                         Coordination,design, gestions des inscriptions, location d'un endroit
