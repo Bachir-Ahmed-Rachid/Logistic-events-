@@ -2,10 +2,12 @@ import React from 'react'
 
 const Stats = () => {
     const stats=[
-        {icon:"fa fa-clock",name:'Years Experience',number:2},
-        {icon:"fa fa-user",name:'Clients',number:3},
-        {icon:"fa fa-bolt",name:"Events",number:6},
-        {icon:"fa fa-code",name:"Projects",number:5}
+        {icon:"fa fa-clock",name:"Années d'expérience",number:2},
+        {icon:"fa fa-user",name:'Clients',number:5},
+        {icon:"fa fa-bolt",name:"Seminaires",number:2},
+        {icon:"fa-solid fa-diagram-project",name:"Projects",number:4},
+        {icon:"fa-solid fa-shop",name:"Showrooms",number:2},
+        {icon:"fa-solid fa-calendar-check",name:"Evénements",number:2}
     ]
   return (
     <div id="stats" className="statsSection section">
@@ -14,7 +16,7 @@ const Stats = () => {
 
         <div className="row">
             {stats.map((stat,index)=>(
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
                     <div className="squareItem">
                         <div className="squareInnerContainer">
                             <div className="squareIcon">

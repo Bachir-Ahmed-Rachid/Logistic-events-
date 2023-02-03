@@ -1,24 +1,28 @@
 import React from 'react'
-import Event1  from '../img/portfolio/event1.jpg'
-import Event2  from '../img/portfolio/event2.jpg'
-import Event3  from '../img/portfolio/event3.jpg'
-import Event4  from '../img/portfolio/event4.jpg'
-import Event5  from '../img/portfolio/event5.jpg'
-import Event6  from '../img/portfolio/event6.jpg'
-import Event7  from '../img/portfolio/event7.jpg'
-import Event8  from '../img/portfolio/event8.jpg'
-import Event9  from '../img/portfolio/event9.jpg'
+import showroom2  from '../img/portfolio/showroom2.jpg'
+import showroom1  from '../img/portfolio/showroom1.jpg'
+import seminair1  from '../img/portfolio/seminair1.jpg'
+import seminair2  from '../img/portfolio/seminair2.jpg'
+import sport1  from '../img/portfolio/sport1.jpg'
+import sport2  from '../img/portfolio/sport2.jpg'
+
+import festival1 from '../img/portfolio/festival1.jpg'
+import festival2  from '../img/portfolio/festival2.jpg'
+import festival3  from '../img/portfolio/festival3.jpg'
+import festival4  from '../img/portfolio/festival4.jpg'
+
 const Portfolio = () => {
     const portfolios=[        
-        {filtre:'.festival',src:Event1,title:"Event1",link:""},
-        {filtre:'sport',src:Event2,title:"Event2",link:""},
-        {filtre:'showroom',src:Event3,title:"Event3",link:""},
-        {filtre:'seminaire',src:Event4,title:"Event4",link:""},
-        {filtre:'sport',src:Event5,title:"Event5",link:""},
-        {filtre:'showroom',src:Event6,title:"Event6",link:""},
-        {filtre:'sport',src:Event7,title:"Event7",link:""},
-        {filtre:'seminaire',src:Event8,title:"Event8",link:""},
-        {filtre:'sport',src:Event9,title:"Event9",link:""},
+        {filtre:'festival',src:festival1,title:"festival1",link:""},
+        {filtre:'sport',src:sport1,title:"sport1",link:""},
+        {filtre:'seminaire',src:seminair1,title:"seminair1",link:""},
+        {filtre:'showroom',src:showroom2,title:"showroom2",link:""},
+        {filtre:'showroom',src:showroom1,title:"showroom1",link:""},
+        {filtre:'festival',src:festival2,title:"festival2",link:""},
+        {filtre:'festival',src:festival3,title:"festival3",link:""},
+        {filtre:'festival',src:festival4,title:"festival4",link:""},
+        {filtre:'seminaire',src:seminair2,title:"seminair1",link:""},
+        {filtre:'sport',src:sport2,title:"sport2",link:""},
     ]
   return (
     <div id="portfolio" className="section">

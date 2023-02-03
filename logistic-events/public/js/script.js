@@ -35,7 +35,7 @@ $(document).ready(function() {
 
 
 		],
-		typeSpeed: 10000,
+		typeSpeed: 50,
 		loop: true,
 		startDelay: 10,
 		showCursor: false

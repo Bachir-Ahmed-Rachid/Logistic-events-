@@ -27,7 +27,7 @@ const Slides = () => {
     </div>
     <div class="titleMessage">
         <div class="heading">
-            <p class="main">BACHIR AHMED RACHID</p>
+            <p class="main">Event Elite Logistics</p>
             <p class="sub typed"></p>
         </div>
     </div>

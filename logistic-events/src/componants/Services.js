@@ -1,10 +1,10 @@
 import React from 'react'
-import Service1 from '../img/services/service1.jpg'
 import Service2 from '../img/services/service2.jpg'
-import Service3 from '../img/services/service3.jpg'
 import Service4 from '../img/services/service4.jpg'
-import Service5 from '../img/services/service5.jpg'
 import Service6 from '../img/services/service6.jpg'
+import Transporter from '../img/services/Transporter.jpg'
+import CoordinationAvecPrestataires from '../img/services/CoordinationAvecPrestataires.jpg'
+import Approvisionnement from '../img/services/Approvisionnement.jpg'
 const Services = () => {
   return (
 <section id="service" className="service section">
@@ -32,7 +32,8 @@ const Services = () => {
   </div>
   <div className="col-md-6 content">
     <h2>Conception de projet</h2>
-    <p>etude de faisabilité , cahier de charge,budget prévisionnelle.</p>
+    <p>Etude de faisabilité</p> 
+    <p>Cahier de charge,budget prévisionnelle.</p> 
     <a href="#"><button className="btn">read more</button></a>
   </div>
  
@@ -47,7 +48,7 @@ const Services = () => {
     <a href="#"><button className="btn">read more</button></a>
   </div>
   <div className="col-md-6 image">
-    <img src={Service2} alt=""/>
+    <img src={CoordinationAvecPrestataires} alt=""/>
   </div>
  
 </div>
@@ -56,11 +57,13 @@ const Services = () => {
 
   
   <div className="col-md-6 image">
-    <img src={Service5} alt=""/>
+    <img src={Approvisionnement} alt=""/>
   </div>
   <div className="col-md-6 content">
     <h2>Approvisionnement</h2>
     <p>Produits alimentaires meuble,décoration,autres.</p>
+    <p>Accomplir les formalités administratives.</p>
+    <p>Bon de réception,bon de commande,affrètement des transport...etc </p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
  
@@ -71,10 +74,11 @@ const Services = () => {
   <div className="col-md-6 content">
     <h2>Transporter</h2>
     <p>Invités et produits au lieu de l'événement.</p>
+    <p>Transporter les produits et invités au lieu de l'événement.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
   <div className="col-md-6 image">
-    <img src={Service3} alt=""/>
+    <img src={Transporter} alt=""/>
   </div>
  
 </div>
@@ -87,7 +91,7 @@ const Services = () => {
   </div>
   <div className="col-md-6 content">
     <h2>Implantation et la mise en place</h2>
-    <p>.</p>
+    <p>Installation,mise en scène.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
  
@@ -97,7 +101,8 @@ const Services = () => {
 
   <div className="col-md-6 content">
     <h2>Programme du déroulement de l'événement</h2>
-    <p>.</p>
+    <p>Gestion du système d'information et communication.</p>
+    <p>Etude de faisabilité,budgétaire.</p>
     <a href="#"><button className="btn">read more</button></a>
   </div>
   <div className="col-md-6 image">

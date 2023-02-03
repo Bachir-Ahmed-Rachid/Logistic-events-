@@ -9,6 +9,14 @@ a, u {
 	text-decoration: none;
   }
 
+p {
+	font-size:15px;
+}
+
+img{
+	border-radius:7%
+}
+
 .overlay {
 	width: 100%;
 	height: 100%;
